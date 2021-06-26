@@ -1,0 +1,3 @@
+#define SPEED(x) {clock_t start_time,end_time; start_time=clock(); x; end_time = clock(); double time_exec_time = double(end_time - start_time) / double(CLOCKS_PER_SEC);cout << "Time taken by function is : " << fixed << time_exec_time << setprecision(10)<<endl;};
+#define SPEED_START clock_t start_time,end_time; start_time=clock();
+#define SPEED_END end_time = clock(); double time_exec_time = double(end_time - start_time) / double(CLOCKS_PER_SEC);cout << "Time taken to execute block is : " << fixed << time_exec_time << setprecision(10)<<endl;
