@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+#folders
+.bin
+
+#input and output text files
+*.txt
+
+#main function file
+test.cpp
