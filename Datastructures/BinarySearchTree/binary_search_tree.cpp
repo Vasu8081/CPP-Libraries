@@ -111,7 +111,7 @@ public:
     }
 
 public:
-    void delete_multiple(std::vector<T> list){
+    void deleten(std::vector<T> list){
         for(auto it=list.begin();it!=list.end();it++){
             deleten(*it);
         }
@@ -119,7 +119,7 @@ public:
 
 public:
     template <typename Iterator>
-    void delete_multiple(Iterator begin, Iterator end){
+    void deleten(Iterator begin, Iterator end){
         for(auto it=begin;it!=end;it++){
             deleten(*it);
         }
@@ -159,7 +159,7 @@ public:
     }
 
 public:
-    void insert_multiple(std::vector<T> list){
+    void insert(std::vector<T> list){
         for(auto it=list.begin();it!=list.end();it++){
             insert(*it);
         }
